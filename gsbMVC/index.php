@@ -17,7 +17,7 @@ switch($uc){
 		include("controleurs/c_gererFrais.php");break;
 	}
 	case 'etatFrais' :{
-		include("controleurs/c_etatFrais.php");break; 
+		include("cntroleurs/c_etatFrais.php");break; 
 	}
 }
 include("vues/v_pied.php") ;
